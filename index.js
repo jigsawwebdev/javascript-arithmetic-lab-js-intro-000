@@ -43,6 +43,6 @@ makeInt()
 
 
 function makeInt() {
-  parseInt('2.2222')
+  parseInt('0x2328', 10)
 }
 makeInt()

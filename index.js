@@ -40,3 +40,8 @@ function makeInt(a) {
   parseInt('a')
 }
 makeInt()
+
+function makeInt(a) {
+  parseInt('a', 10)
+}
+makeInt()

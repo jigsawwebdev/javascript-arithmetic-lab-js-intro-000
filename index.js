@@ -36,11 +36,12 @@ function dec(a) {
 }
 dec()
 
-function makeInt(a) {
-  parseInt('a')
+function makeInt('a') {
+  parseInt(a)
 }
 makeInt()
 
+/*
 function makeInt(a) {
   parseInt('a', 10)
 }

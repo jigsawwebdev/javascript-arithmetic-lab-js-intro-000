@@ -40,3 +40,10 @@ function makeInt(a) {
   return (parseInt(a))
 }
 makeInt()
+
+
+
+function preserveDecimal(a) {
+  return (parseFloat(a))
+}
+preserveFloat()

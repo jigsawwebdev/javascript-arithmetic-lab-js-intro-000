@@ -36,13 +36,13 @@ function dec(a) {
 }
 dec()
 
-function makeInt('a') {
+function makeInt(a) {
   parseInt(a)
 }
 makeInt()
 
-/*
-function makeInt(a) {
-  parseInt('a', 10)
+
+function makeInt() {
+  parseInt('2.2222')
 }
 makeInt()
